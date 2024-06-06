@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Collapsible sidebar using Bootstrap 3</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                
+
+                <ul class="list-unstyled components">
+                
+                    <img  src="Screenshot 2024-05-28 201201.png"  style="min-height: 50px;min-width: 50px;border-radius:100px; height: 30px;
+                    width: 30px;"alt="">
+                <br>
+                   
+
+                        <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/circnotice.png' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                        width: 20px;" class="sidebar-item-icon" title="">
+                        
+                    
+                    <br>
+                
+                            
+                
+                  
+                        <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/promotion.svg' style="min-height: 35px;min-width: 35px;border-radius:100px;  height: 20px;
+                        width: 20px;" class="sidebar-item-icon; height: 20px;
+                        width: 20px;" title="">
+                         
+                 
+                            <br>
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/assignments.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                           <br>
+                            
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/attendance.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+             
+                        <br>
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/college-info/college-profile.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                         <br>
+                            
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/library.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                        <br>        
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/examinations.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                        <br>    
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/examinations.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                            <br>
+                
+                    
+                        <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/fees.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                        width: 20px;" class="sidebar-item-icon" title="">
+                 
+                            <br>
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/assignments.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                            <br>
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/subjects.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                            <br>
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/report.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon;" title="">
+                 
+                            <br>
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/module_images/library.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                            <br>
+
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/module_images/performance.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                            <br>
+                
+                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/time-table.svg' style="min-height: 35px;min-width: 35px;border-radius:100px; height: 20px;
+                         width: 20px;" class="sidebar-item-icon" title="">
+                 
+                    </ul>
+
+
+    
+
+              
+            </nav>
+ 
+ 
+ 
+
+
+            <div id="content">
+
+ 
+                
+
+                
+                    <div class="container-fluid" style="background-color: white;"> 
+    
+                        <button type="button" id="sidebarCollapse" class="btn btn-info" style="position: absolute;">
+                             <span>Menu</span>
+                             
+                        </button>
+                       <img src="Screenshot 2024-05-28 201410.png" style="height: 60px;width: 60px;margin-left: 500px;" alt="">
+ 
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                 
+                            </ul>
+                        </div>
+
+                    </div>
+                    <p class="cutm">Centurian University of technology and Management,Paralakhemundi</p>
+
+                </nav>
+                <div class="page-content  " style="background: #0bade9">
+
+                    <div class="col-md-12">
+                          <div class="row animated fadeInUp">
+                        
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/circnotice.png' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">Admit Card </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/promotion.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">APPLY TNP </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/assignments.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">Assignments </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/attendance.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">Attendance </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/college-info/college-profile.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">College Info </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/library.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">Courses </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/examinations.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                     <h6 style="color:white">Feedback </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/examinations.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">Feedback Survey </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/fees.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">Fees </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/assignments.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">Grievance Complaint </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/subjects.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                     <h6 style="color:white">LMS </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                
+                                        <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/report.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                
+                                    <h6 style="color:white">My Report Card </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/module_images/library.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                    
+                                    <h6 style="color:white">OPAC /Faculty /Student login </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/module_images/performance.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                    
+                                    <h6 style="color:white">Performances </h6>
+                              </div>
+                  
+                                  
+                              
+                              <div class="col-md-2 col-sm-3 text-center" style="padding: 15px;">
+                                         <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/time-table.svg' style="height: 80;width:80px;-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.22); box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.22);  border-radius:100px;" class="sidebar-item-icon img-thumbnail1">
+                                        
+                                    </a>
+                                    <h6 style="color:white">Time Table </h6>
+                              </div>
+                  
+                                  
+                                      </div>    
+                      </div>
+                  </div>  
+
+
+             </div>
+        </div>
+    
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                });
+            });
+        
+         </script>
+    </body>
+</html>
+
+
+
+
+ 

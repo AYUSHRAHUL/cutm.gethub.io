@@ -1,0 +1,22 @@
+header{
+    background-color: aqua;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 50%;
+    
+}
+.header1{
+    text-align: center;
+    background-color: rgb(104, 125, 119);
+margin-top: 0%;
+font-style: italic;
+
+}
+
+.sidebar{
+    position: relative;
+}
+
+ 

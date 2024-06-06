@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+
+
+
+
+    <div class=" wrapper page-sidebar custom-scroll toggled1" id="sidebar" style="background-color: #363f4a">
+        <div class="sidebar-header">
+            <a class="sidebar-brand" href="https://www.icloudems.com" target="_blank">
+                <img src="https://s3.ap-south-1.amazonaws.com/corecampus/images/cnv_logo_short.png" height="40" width="40" class="img-responsive ">
+            </a>
+            <a class="sidebar-brand-mini" href="https://www.icloudems.com" target="_blank">
+                <img src="https://s3.ap-south-1.amazonaws.com/corecampus/images/cnv_logo_short.png" height="40" width="40" style="min-width: 40px" class="img-responsive ">
+            </a>
+            <span class="sidebar-points">
+                <h4 style="color: white">iCloudEMS</h4>
+            </span>
+        </div>
+
+      
+       <!--  <div class="form-group mb-4 px-2 "><label class="active"></label><input class="form-control form-control-rounded search" type="text" placeholder="Type To Filter Branches" onkeyup="filter_branches()" id="branch_search_input">
+        </div> -->
+        <ul class="sidebar-menu metismenu">
+            
+                            
+                    <li >
+                        <a href="grades/myadmitcard_gu.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/circnotice.png' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Admit Card </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="tnp/tnpmaster.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/promotion.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">APPLY TNP </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="assignments/myassignments.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/assignments.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Assignments </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="attendance/subwise_attendace_new.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/attendance.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Attendance </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="school/settings.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/college-info/college-profile.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">College Info </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="subjects/mysubjects.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/library.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Courses </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="../quiz/instructions.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/examinations.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Feedback </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="../admin/new_survey/StudentSurveylist.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/examinations.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Feedback Survey </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="fees/common_academics_fees.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/fees.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Fees </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="grievance/grievance_entry.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/assignments.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Grievance Complaint </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="../student/lms_content.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/subjects.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">LMS </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="grades/myreportcard_cutm.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/report.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">My Report Card </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="/corecampus/koha/library.php?opac">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/module_images/library.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">OPAC /Faculty /Student login </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="grades/new/myreportcard.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/assets/img/module_images/performance.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Performances </span>
+                        </a>
+                    </li>
+                                
+                    <li >
+                        <a href="schedulerand/tt_report_view.php">
+                            <img src='https://corecampus.s3.ap-south-1.amazonaws.com/images/module_images/time-table.svg' style="min-height: 25px;min-width: 25px;border-radius:100px" class="sidebar-item-icon" title="">
+                            <span class="nav-label">Time Table </span>
+                        </a>
+                    </li>
+                        </ul>
+
+
+
+
+
+
+
+
+
+<div class="complete">
+
+
+    <header>
+        <img class="logo" src="Screenshot 2024-05-28 201410.png" alt="logo">
+    </header>
+    <p class="header1">School of Engineering & technology, Paralakhemundi </p>
+
+
+    </header>
+
+    </div>
+</body>
+</html>
